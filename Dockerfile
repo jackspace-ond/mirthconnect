@@ -1,6 +1,6 @@
 FROM aglover/java8-pier
 
-ENV TZ=Asia/Bangkok
+ENV TZ=America/Los_Angeles
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN locale-gen en_US.UTF-8  
