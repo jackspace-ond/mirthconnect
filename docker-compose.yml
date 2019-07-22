@@ -2,7 +2,7 @@ version: "2"
 services:
 
     mirthconnect:
-      image: YOUR_IMAGE_NAME
+      image:ond-mirth
       container_name: mirthconnect
       links:
         - mysql
